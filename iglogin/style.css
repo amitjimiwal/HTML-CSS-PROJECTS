@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.main{
+    width: 350px;
+    height: auto;
+    text-align: center;
+    margin: 80px 0px 0px 0px;
+    border: 1px solid lightgray;
+    position: inherit;
+    
+    
+}
+.main-img{
+    display: flex;
+    justify-content: center;
+    margin: 35px 0px 22px 0px;
+    flex-wrap:wrap;
+}
+#login-form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    
+}
+.border-set{
+    max-width: 260px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+    border-radius: 1px;
+}
+
+.mcq{
+    font-size:20px;
+    border: none; 
+}
+#label-form{
+    display: flex;
+    justify-content: start;
+}
+.login{
+    display: flex;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+
+    justify-content: center;
+    background-color: #0095f6;
+    border-radius: 5px;
+
+
+}
+.login button{
+     width: 100%;
+     border:none;
+     background-color: #0095f6; 
+}
+.line{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.line div{
+    margin: 0px 3px 0px 3px;
+}
+.fb-login{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.forgot-pass{
+    display: flex;
+    justify-content: center;
+
+}
+.forgot-pass a{
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.sign-up{
+    width:350px;
+    height:3rem;
+    border:1px solid lightgray;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up div a{
+    text-decoration:none;
+    color: #0095f6; 
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.getapp{
+    margin:30px 30px 10px 30px;
+}
+.get-play-app-store{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+} 
+.get-play-app-store a{
+    margin:0px 4px 0px 4px;
+}
+.about{
+    display: flex;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+.about div{
+    margin:0px 10px 0px 10px;
+}
+.about div a{
+    text-decoration: none;
+    color: rgba(63, 62, 62, 0.573);
+}
+
+
+
+
+
+
+
+
+
